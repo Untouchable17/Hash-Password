@@ -1,6 +1,6 @@
 <h1 align="center">Password Hashing</h1>
 
-<h4 align="center">program in C lang for sha256 password hashing</h4>
+<h4 align="center">Program in C lang for sha256 password hashing</h4>
 
 ## Documentation
 
