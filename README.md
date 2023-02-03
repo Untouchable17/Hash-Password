@@ -12,30 +12,21 @@ git clone https://github.com/Untouchable17/Hash-Password
 ```
 2. Compile the program with the command or use 
 ```
-gcc hash_program.c -o <Output File Name> -lssl -lcrypto
+gcc hash_program.c -o HashPasswd -lssl -lcrypto
 ```
-3. Set +X permissions to file
+3. Run the program
 ```
-chmod 764 network_scanner.sh
+./HashPasswd <password>
 | OR
-chmod +x network_scanner.sh
-```
-4. Start script
-```
-1. ./network_scanner.sh
-2. ./network_scanner.sh <file>
+./HashPasswd
 ```
 <br/>
 
-> INFO: You can add current path in ENV
+> INFO: You can extend the password length by changing the array value in the password
 ```
-export PATH=$PATH:$(pwd)
+Array: char password[<value: int>];
 ```
-After the command, you can run the script with just the name. Example:
-```
-network_scanner.sh
-network_scanner.sh <file>
-```
+
 ## Contact Developer
 
 
