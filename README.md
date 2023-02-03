@@ -10,9 +10,9 @@ Installation process:
 ```
 git clone https://github.com/Untouchable17/Hash-Password
 ```
-2. Install the library for the C program
+2. Install the SSL library for the C program
 ```
-sudo apt install opensl libssl-dev
+sudo apt install openssl libssl-dev
 ```
 3. Compile the program with the command or use 
 ```
