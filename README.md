@@ -14,7 +14,7 @@ git clone https://github.com/Untouchable17/Hash-Password
 ```
 sudo apt install openssl libssl-dev
 ```
-3. Compile the program with the command or use 
+3. Compile the program with the command
 ```
 gcc hash_program.c -o HashPasswd -lssl -lcrypto
 ```
